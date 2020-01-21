@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install OpenSCAD
+      run: |
+        sudo add-apt-repository ppa:openscad/releases -y
+        sudo apt-get update -q
+        sudo apt-get install openscad xvfb -y
+    - name: Render
+      run: xvfb-run -s "-screen 0 1280x1024x24" bash ./generate_all.bash
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: incremental-${{ github.sha }}
+        release_name: Incremental Build ${{ github.sha }}
+        draft: false
+        prerelease: true
