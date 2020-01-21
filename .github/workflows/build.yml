@@ -13,4 +13,4 @@ jobs:
         sudo apt-get update -q
         sudo apt-get install openscad xvfb -y
     - name: Render
-      run: xvfb-run -s "-screen 0 1280x1024x24" bash ./generate_all.sh
+      run: xvfb-run -s "-screen 0 1280x1024x24" bash ./generate_all.bash
