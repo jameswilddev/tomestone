@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install OpenSCAD
+      run: |
+        sudo add-apt-repository ppa:openscad/releases -y
+        sudo apt-get update -q
+        sudo apt-get install openscad xvfb -y
+    - name: Render
+      run: xvfb-run -s "-screen 0 1280x1024x24" bash ./scripts/generate_all.sh
