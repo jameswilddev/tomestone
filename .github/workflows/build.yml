@@ -23,7 +23,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.sha }}
-        release_name: Release ${{ github.sha }}
+        tag_name: incremental-${{ github.sha }}
+        release_name: Incremental Build ${{ github.sha }}
         draft: false
         prerelease: true
