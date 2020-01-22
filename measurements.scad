@@ -23,3 +23,5 @@ function tomestone_blade_panel_height() = 0.4;
 function tomestone_blade_clip_height() = 1.2;
 function tomestone_blade_clip_length() = 5;
 function tomestone_blade_clip_width() = 1;
+function tomestone_blade_width() = tomestone_outer_width() - tomestone_blade_spacing() * 2;
+function tomestone_blade_length() = tomestone_outer_length() - tomestone_blade_spacing() * 2;

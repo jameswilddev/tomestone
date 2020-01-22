@@ -1,8 +1,5 @@
 use <measurements.scad>;
 
-function tomestone_blade_width() = tomestone_outer_width() - tomestone_blade_spacing() * 2;
-function tomestone_blade_length() = tomestone_outer_length() - tomestone_blade_spacing() * 2;
-
 function tomestone_blade_ramp_far() = tomestone_blade_ramp_near() + tomestone_blade_ramp_length();
 
 function tomestone_blade_gradient_gap(
