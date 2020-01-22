@@ -5,6 +5,8 @@ use <blade.scad>;
 function tomestone_top_height() = tomestone_outer_height() - tomestone_bottom_height();
 
 module tomestone_top() {
+    trim_with_tolerance = tomestone_blade_panel_trim() + tomestone_tolerance();
+    
     difference() {
         // Slice the bottom off.
         intersection() {
@@ -36,11 +38,11 @@ module tomestone_top() {
         };
         
         // Cut out pockets for blade panels.
-        near = tomestone_blade_spacing() - tomestone_blade_panel_trim();
+        near = tomestone_blade_spacing() - trim_with_tolerance;
         far = tomestone_outer_length() - near;
-        width = tomestone_blade_spacing() * 3 + tomestone_blade_panel_trim() * 2;
+        width = tomestone_blade_spacing() * 3 + trim_with_tolerance * 2;
         length = far - near;
-        radius = tomestone_blade_spacing() + tomestone_blade_panel_trim();
+        radius = tomestone_blade_spacing() + trim_with_tolerance;
         radius_left = near + radius;
         radius_right = tomestone_outer_width() - radius_left;
         radius_near = radius_left;
@@ -78,7 +80,7 @@ module tomestone_top() {
             // Middle panels.
             for (blade = [1 : 2]) { 
                 translate([
-                    (blade * 4 + 1) * tomestone_blade_spacing() - tomestone_blade_panel_trim(),
+                    (blade * 4 + 1) * tomestone_blade_spacing() - trim_with_tolerance,
                     near
                 ]) {
                     square([width, length]);
@@ -118,7 +120,7 @@ module tomestone_top() {
     translate([0, 0, tomestone_top_height() - tomestone_blade_cutout_height() - tomestone_blade_panel_height() - tomestone_blade_clip_height()]) {
         linear_extrude(tomestone_blade_clip_height()) {
             for (blade = [1 : tomestone_blade_count()]) {
-                translate([(blade * 4 - 3) * tomestone_blade_spacing() - tomestone_blade_panel_trim(), 0]) {
+                translate([(blade * 4 - 3) * tomestone_blade_spacing() - trim_with_tolerance, 0]) {
                     translate([
                         0,
                         (tomestone_outer_length() - tomestone_blade_clip_length()) / 2
@@ -128,7 +130,7 @@ module tomestone_top() {
                         
                         // Right.
                         translate([
-                            tomestone_blade_spacing() * 3 + tomestone_blade_panel_trim() * 2 - tomestone_blade_clip_width(),
+                            tomestone_blade_spacing() * 3 + trim_with_tolerance * 2 - tomestone_blade_clip_width(),
                             0
                         ]) {
                             square([tomestone_blade_clip_width(), tomestone_blade_clip_length()]);
@@ -136,12 +138,12 @@ module tomestone_top() {
                     };
                     
                     translate([
-                        (tomestone_blade_spacing() * 3 + tomestone_blade_panel_trim() * 2 - tomestone_blade_clip_length()) / 2,
+                        (tomestone_blade_spacing() * 3 + trim_with_tolerance * 2 - tomestone_blade_clip_length()) / 2,
                         0
                     ]) {
                         translate([
                             0,
-                            tomestone_blade_spacing() - tomestone_blade_panel_trim()
+                            tomestone_blade_spacing() - trim_with_tolerance
                         ]) {
                             square([
                                 tomestone_blade_clip_length(),
@@ -151,7 +153,7 @@ module tomestone_top() {
                         
                         translate([
                             0,
-                            tomestone_outer_length() - tomestone_blade_spacing() + tomestone_blade_panel_trim() - tomestone_blade_clip_width()
+                            tomestone_outer_length() - tomestone_blade_spacing() + trim_with_tolerance - tomestone_blade_clip_width()
                         ]) {
                             square([
                                 tomestone_blade_clip_length(),
