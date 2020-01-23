@@ -5,8 +5,7 @@ module tomestone_outer() {
     right = tomestone_outer_width() - left;
     near = tomestone_outer_radius();
     far = tomestone_outer_length() - near;
-    bottom = sin(acos((tomestone_blade_spacing() + tomestone_outer_border()) / tomestone_outer_radius())) * tomestone_outer_radius();
-    top = tomestone_outer_height() - bottom;
+    top = tomestone_outer_height() - tomestone_bottom_height();
 
     intersection() {
         cube([
@@ -16,7 +15,7 @@ module tomestone_outer() {
         ]);
 
         hull() {
-            translate([left, near, bottom]) {
+            translate([left, near, tomestone_bottom_height()]) {
                 sphere(r = tomestone_outer_radius());
             };
             
@@ -24,7 +23,7 @@ module tomestone_outer() {
                 sphere(r = tomestone_outer_radius());
             };
             
-            translate([left, far, bottom]) {
+            translate([left, far, tomestone_bottom_height()]) {
                 sphere(r = tomestone_outer_radius());
             };
             
@@ -32,7 +31,7 @@ module tomestone_outer() {
                 sphere(r = tomestone_outer_radius());
             };
             
-            translate([right, near, bottom]) {
+            translate([right, near, tomestone_bottom_height()]) {
                 sphere(r = tomestone_outer_radius());
             };
             
@@ -40,7 +39,7 @@ module tomestone_outer() {
                 sphere(r = tomestone_outer_radius());
             };
             
-            translate([right, far, bottom]) {
+            translate([right, far, tomestone_bottom_height()]) {
                 sphere(r = tomestone_outer_radius());
             };
             

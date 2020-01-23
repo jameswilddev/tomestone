@@ -17,7 +17,7 @@ function tomestone_blade_detail_width() = 2.625;
 function tomestone_blade_ramp_length() = 35;
 function tomestone_blade_ramp_near() = 25;
 
-function tomestone_bottom_height() = 2.5;
+function tomestone_bottom_height() = sin(acos((tomestone_blade_spacing() + tomestone_outer_border()) / tomestone_outer_radius())) * tomestone_outer_radius();
 
 function tomestone_blade_cutout_height() = 2;
 function tomestone_blade_inset_height() = 1.2;
