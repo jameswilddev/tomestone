@@ -26,13 +26,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.5602164"
-     inkscape:cx="394.2736"
-     inkscape:cy="466.01666"
+     inkscape:cx="498.25295"
+     inkscape:cy="591.4141"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-text-baseline="true"
-     inkscape:window-width="1507"
+     inkscape:window-width="1828"
      inkscape:window-height="1408"
      inkscape:window-x="-7"
      inkscape:window-y="0"
@@ -1025,5 +1025,239 @@
          x="113"
          y="160"
          style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_blade_panel_trim</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 96,145 c 0,0 -8,0 -8,-8 0,-8 8,-8 8,-8 h 20 v 16 z"
+       id="path991"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 116,131 h 2 v 1 h -2"
+       id="path993"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 116,134 h 2 v 1 h -2"
+       id="path995"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="88"
+       y="115"
+       id="text1297-9-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan1295-4-3-8"
+         x="88"
+         y="115"
+         style="font-size:5.64444447px;stroke-width:0.26458332">battery</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-145"
+       y="86"
+       id="text903-7-7-4"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan901-4-1-1"
+         x="-145"
+         y="86"
+         style="font-size:3.52777767px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;fill:#999999;fill-opacity:1;stroke-width:0.26458332">top</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123"
+       y="132"
+       id="text903-1-6-9-4-4-6-1-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7"
+         x="123"
+         y="132"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_switch_length</tspan></text>
+    <path
+       style="fill:none;stroke:#f80000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 118,131 h 4 v -1 h 26"
+       id="path1051"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#f70000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 118,132 h 4 v 1 l 26,0"
+       id="path1053"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123"
+       y="136"
+       id="text903-1-6-9-4-4-6-1-9-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-3"
+         x="123"
+         y="136"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_switch_throw</tspan></text>
+    <path
+       style="fill:none;stroke:#f80000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 118,132 0,1 h 2.5 l 0,2 h 1.5 v -1 h 26"
+       id="path1051-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#f70000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 118,135 v -1 l 1.5,0 0,2 h 2.5 v 1 h 26"
+       id="path1053-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123"
+       y="128"
+       id="text903-1-6-9-4-4-6-1-9-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-9"
+         x="123"
+         y="128"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_switch_far</tspan></text>
+    <path
+       style="fill:none;stroke:#f80000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 116,129 v 0.5 h 0.5 V 127 h 5.5 v -1 h 24"
+       id="path1051-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#f70000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 116,131 v -0.5 h 1.5 V 128 h 4.5 v 1 l 24,0"
+       id="path1053-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123"
+       y="144"
+       id="text903-1-6-9-4-4-6-1-9-9-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-3-2"
+         x="123"
+         y="144"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_length</tspan></text>
+    <path
+       style="fill:none;stroke:#f80000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 144,142 h -22 v 1 h -10 l 0,-14"
+       id="path1109"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#f80000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 112,145 0,-1 h 10 v 1 h 22"
+       id="path1111"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#fa0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 116,129 h -13.5 l 0,-5 H 122 v 1 h 20"
+       id="path1113"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#f90000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 88,129 h 13.5 l 0,-6 H 122 v -1 h 20"
+       id="path1115"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123"
+       y="124"
+       id="text903-1-6-9-4-4-6-1-9-9-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-9-7"
+         x="123"
+         y="124"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_width</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-145"
+       y="154"
+       id="text903-7-7-4-8"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan901-4-1-1-4"
+         x="-145"
+         y="154"
+         style="font-size:3.52777767px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;fill:#999999;fill-opacity:1;stroke-width:0.26458332">right</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160,129 v 16 h -4 v -16 z"
+       id="path1153"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160,131 h -4"
+       id="path1155"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156,132 h 4"
+       id="path1157"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160,134 h -4"
+       id="path1159"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156,135 h 4"
+       id="path1161"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="165"
+       y="127.5"
+       id="text903-1-6-9-4-4-6-1-9-9-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-9-1"
+         x="165"
+         y="127.5"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_height</tspan></text>
+    <path
+       style="fill:none;stroke:#f90000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 160,129 h -1.5 v -1.5 h 5.5 v 1 l 22,0"
+       id="path1181"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#f90000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 156,129 h 1.5 v -2.5 h 6.5 v -1 h 22"
+       id="path1183"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123"
+       y="140"
+       id="text903-1-6-9-4-4-6-1-9-9-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-9-14"
+         x="123"
+         y="140"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_battery_switch_width</tspan></text>
+    <path
+       style="fill:none;stroke:#f90000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 116,135 h 0.5 v 5 h 5.5 v 1 h 26"
+       id="path1203"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#f90000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 148,138 h -26 v 1 h -4.5 v -4 h 0.5"
+       id="path1205"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

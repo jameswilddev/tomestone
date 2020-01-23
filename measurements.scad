@@ -30,3 +30,10 @@ function tomestone_blade_clip_length() = 2;
 function tomestone_blade_clip_width() = 0.5;
 function tomestone_blade_width() = tomestone_outer_width() - tomestone_blade_spacing() * 2;
 function tomestone_blade_length() = tomestone_outer_length() - tomestone_blade_spacing() * 2;
+
+function tomestone_battery_width() = 51;
+function tomestone_battery_switch_width() = 2.5;
+function tomestone_battery_switch_length() = 1.5;
+function tomestone_battery_switch_throw() = 2;
+function tomestone_battery_length() = 23.7;
+function tomestone_battery_height() = 6;
