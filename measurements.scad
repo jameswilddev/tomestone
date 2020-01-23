@@ -37,3 +37,14 @@ function tomestone_battery_switch_length() = 1.5;
 function tomestone_battery_switch_throw() = 2;
 function tomestone_battery_length() = 23.7;
 function tomestone_battery_height() = 6;
+
+function tomestone_slide_top() = 4;
+function tomestone_slide_overlap_height() = 2;
+function tomestone_slide_bottom() = 4;
+
+function tomestone_slide_far() = 10;
+function tomestone_slide_radius() = 3.75;
+function tomestone_slide_width() = 7.5;
+function tomestone_slide_rail_width() = 2;
+function tomestone_slide_overlap_length() = 3;
+function tomestone_slide_near() = 10;

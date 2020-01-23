@@ -1,5 +1,6 @@
 include <quality.scad>;
 include <top.scad>;
+include <slide.scad>;
 include <bottom.scad>;
 include <blade_panel_end.scad>;
 include <blade_panel_middle.scad>;
@@ -27,6 +28,10 @@ translate([tomestone_outer_width() - tomestone_blade_spacing(), tomestone_blade_
 
 translate([0, 0, -10]) {
     tomestone_battery();
+};
+
+translate([0, 0, -15]) {
+    tomestone_slide();
 };
 
 translate([0, 0, -20]) {
