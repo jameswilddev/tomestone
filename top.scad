@@ -2,27 +2,21 @@ use <measurements.scad>;
 use <outer.scad>;
 use <blade.scad>;
 
-function tomestone_top_height() = tomestone_outer_height() - tomestone_bottom_height();
-
 module tomestone_top() {
     trim_with_tolerance = tomestone_blade_panel_trim() + tomestone_tolerance();
     
     difference() {
-        // Slice the bottom off.
-        intersection() {
-            translate([0, 0, -tomestone_bottom_height()]) {
-                tomestone_outer();
-            };
-            
-            cube([
-                tomestone_outer_width(),
-                tomestone_outer_length(),
-                tomestone_top_height()
-            ]);
-        };
+        tomestone_outer();
+        
+        // Slice the bottom off.           
+        cube([
+            tomestone_outer_width(),
+            tomestone_outer_length(),
+            tomestone_bottom_height()
+        ]);
         
         // Cut out the blade cutouts.
-        linear_extrude(tomestone_top_height()) {
+        linear_extrude(tomestone_outer_height()) {
             tomestone_blade_cutout();
         };
         
@@ -30,7 +24,7 @@ module tomestone_top() {
         translate([
             0,
             0,
-            tomestone_top_height() - tomestone_blade_inset_height()
+            tomestone_outer_height() - tomestone_blade_inset_height()
         ]) {
             linear_extrude(tomestone_blade_inset_height()) {
                 tomestone_blade_inset();
@@ -49,7 +43,7 @@ module tomestone_top() {
         radius_far = tomestone_outer_length() - radius_near;
         radius_square_width = width - radius;
              
-        linear_extrude(tomestone_top_height() - tomestone_blade_cutout_height()) {
+        linear_extrude(tomestone_outer_height() - tomestone_blade_cutout_height()) {
             // Leftmost panel.
             hull() {
                 translate([
@@ -117,7 +111,7 @@ module tomestone_top() {
     };
     
     // Blade panel retaining clips.
-    translate([0, 0, tomestone_top_height() - tomestone_blade_cutout_height() - tomestone_blade_panel_height() - tomestone_blade_clip_height() - tomestone_tolerance()]) {
+    translate([0, 0, tomestone_outer_height() - tomestone_blade_cutout_height() - tomestone_blade_panel_height() - tomestone_blade_clip_height() - tomestone_tolerance()]) {
         linear_extrude(tomestone_blade_clip_height()) {
             for (blade = [1 : tomestone_blade_count()]) {
                 translate([(blade * 4 - 3) * tomestone_blade_spacing() - trim_with_tolerance, 0]) {

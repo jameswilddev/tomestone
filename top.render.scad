@@ -5,7 +5,7 @@ use <top.scad>;
 translate([
     tomestone_outer_width(),
     0,
-    tomestone_outer_height() - tomestone_bottom_height(),
+    tomestone_outer_height(),
 ]) {
     rotate([0, 180, 0]) {
         tomestone_top();
