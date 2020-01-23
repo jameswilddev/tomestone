@@ -117,7 +117,7 @@ module tomestone_top() {
     };
     
     // Blade panel retaining clips.
-    translate([0, 0, tomestone_top_height() - tomestone_blade_cutout_height() - tomestone_blade_panel_height() - tomestone_blade_clip_height()]) {
+    translate([0, 0, tomestone_top_height() - tomestone_blade_cutout_height() - tomestone_blade_panel_height() - tomestone_blade_clip_height() - tomestone_tolerance()]) {
         linear_extrude(tomestone_blade_clip_height()) {
             for (blade = [1 : tomestone_blade_count()]) {
                 translate([(blade * 4 - 3) * tomestone_blade_spacing() - trim_with_tolerance, 0]) {
