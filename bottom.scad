@@ -4,7 +4,7 @@ use <outer.scad>;
 module tomestone_bottom() {
     // Slice the top off.
     intersection() {
-        tomestone_outer();
+        tomestone_outer(0);
         
         cube([
             tomestone_outer_width(),

@@ -6,7 +6,7 @@ module tomestone_top() {
     trim_with_tolerance = tomestone_blade_panel_trim() + tomestone_tolerance();
     
     difference() {
-        tomestone_outer();
+        tomestone_outer(0);
         
         // Slice the bottom off.           
         cube([
