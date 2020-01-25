@@ -1,4 +1,4 @@
-function tomestone_tolerance() = 0.25;
+function tomestone_tolerance() = 0.15;
 
 function tomestone_outer_width() = 64;
 function tomestone_outer_length() = 120;
