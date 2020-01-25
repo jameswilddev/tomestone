@@ -49,3 +49,16 @@ function tomestone_slide_width() = 7.5;
 function tomestone_slide_rail_width() = 2;
 function tomestone_slide_overlap_length() = 3;
 function tomestone_slide_near() = 10;
+
+function tomestone_led_diameter() = 3;
+function tomestone_led_height() = 5.2;
+function tomestone_led_lip_height() = 0.85;
+function tomestone_led_lip_diameter() = 3.75;
+function tomestone_led_lead_spacing() = 2.5;
+function tomestone_led_lead_diameter() = 0.4;
+function tomestone_led_clip_height() = 0.6;
+
+function tomestone_resistor_diameter_outer() = 2.15;
+function tomestone_resistor_length() = 5.75;
+function tomestone_resistor_diameter_inner() = 1.6;
+function tomestone_resistor_lead_diameter() = 0.2;
