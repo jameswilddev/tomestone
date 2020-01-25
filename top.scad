@@ -15,6 +15,17 @@ module tomestone_top() {
             tomestone_bottom_height()
         ]);
         
+        // Carve the inside out.
+        intersection() {
+            tomestone_outer(-tomestone_outer_thickness());
+            
+            cube([
+                tomestone_outer_width(),
+                tomestone_outer_length(),
+                tomestone_outer_height() - tomestone_blade_cutout_height() - tomestone_blade_panel_height() - tomestone_blade_clip_height() - tomestone_tolerance()
+            ]);
+        };
+        
         // Cut out the blade cutouts.
         linear_extrude(tomestone_outer_height()) {
             tomestone_blade_cutout();
