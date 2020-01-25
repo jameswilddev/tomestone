@@ -21,7 +21,7 @@ function tomestone_bottom_height() = sin(acos((tomestone_blade_spacing() + tomes
 
 function tomestone_blade_cutout_height() = 2;
 function tomestone_blade_inset_height() = 1.2;
-function tomestone_blade_panel_height() = 0.8;
+function tomestone_blade_panel_height() = 0.6;
 function tomestone_blade_panel_trim() = 0.5;
 function tomestone_blade_panel_width() = tomestone_blade_spacing() * 3 + tomestone_blade_panel_trim() * 2;
 function tomestone_blade_panel_length() = tomestone_blade_length() + tomestone_blade_panel_trim() * 2;
