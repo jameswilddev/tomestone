@@ -126,19 +126,21 @@ module tomestone_top() {
         linear_extrude(tomestone_blade_clip_height()) {
             for (blade = [1 : tomestone_blade_count()]) {
                 translate([(blade * 4 - 3) * tomestone_blade_spacing() - trim_with_tolerance, 0]) {
-                    translate([
-                        0,
-                        (tomestone_outer_length() - tomestone_blade_clip_length()) / 2
-                    ]) {
-                        // Left.
-                        square([tomestone_blade_clip_width(), tomestone_blade_clip_length()]);
-                        
-                        // Right.
+                    for (clip = [1 : tomestone_blade_clip_count()]) {
                         translate([
-                            tomestone_blade_spacing() * 3 + trim_with_tolerance * 2 - tomestone_blade_clip_width(),
-                            0
+                            0,
+                            tomestone_outer_length() * clip / (tomestone_blade_clip_count() + 1) - tomestone_blade_clip_length() / 2
                         ]) {
+                            // Left.
                             square([tomestone_blade_clip_width(), tomestone_blade_clip_length()]);
+                            
+                            // Right.
+                            translate([
+                                tomestone_blade_spacing() * 3 + trim_with_tolerance * 2 - tomestone_blade_clip_width(),
+                                0
+                            ]) {
+                                square([tomestone_blade_clip_width(), tomestone_blade_clip_length()]);
+                            };
                         };
                     };
                     
