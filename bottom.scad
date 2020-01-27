@@ -38,5 +38,3 @@ module tomestone_bottom() {
         };
     };
 };
-
-tomestone_bottom();
