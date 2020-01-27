@@ -6,6 +6,9 @@ function tomestone_outer_height() = 15;
 function tomestone_outer_radius() = tomestone_blade_spacing() * 2;
 function tomestone_outer_border() = 0.5;
 function tomestone_outer_thickness() = 2;
+function tomestone_inner_thickness() = 1.5;
+function tomestone_engraving_height() = 0.2;
+function tomestone_reflector_radius() = 40;
 
 function tomestone_blade_count() = 4;
 function tomestone_blade_spacing() = tomestone_outer_width() / (tomestone_blade_count() * 4 + 1);
@@ -57,6 +60,7 @@ function tomestone_led_lip_diameter() = 3.75;
 function tomestone_led_lead_spacing() = 2.5;
 function tomestone_led_lead_diameter() = 0.4;
 function tomestone_led_clip_height() = 0.6;
+function tomestone_led_clip_length() = 0.2;
 
 function tomestone_resistor_diameter_outer() = 2.15;
 function tomestone_resistor_length() = 5.75;

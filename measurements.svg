@@ -25,19 +25,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.5602164"
-     inkscape:cx="79.292658"
-     inkscape:cy="858.72158"
+     inkscape:zoom="2.7801082"
+     inkscape:cx="156.85201"
+     inkscape:cy="875.31579"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-text-baseline="true"
-     inkscape:window-width="1828"
+     inkscape:window-width="1656"
      inkscape:window-height="1408"
      inkscape:window-x="-7"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:snap-global="true">
+     inkscape:window-maximized="0"
+     inkscape:snap-global="true"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-bbox="false"
+     inkscape:snap-smooth-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid815"
@@ -1880,5 +1883,114 @@
        d="m 7.9999998,71.999998 h -2 V 62 H 16.5 V 60.999999 H 37"
        id="path1464"
        inkscape:connector-curvature="0" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#a4c0ff;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1154"
+       cx="34"
+       cy="39"
+       r="10" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#a4c0ff;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1154-4"
+       cx="22"
+       cy="39"
+       r="10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 14,48.999998 c 0,0 1,2.000002 4,2.000002 3,0 4,0 4,0 V 49.999999 H 33.999999 V 51 c 0,0 1.000001,0 4,0 2.999999,0 4,-2.000002 4,-2.000002 H 40.999998 V 45.5 H 40 V 47 c 0,0 -2.000001,1.999998 -6.000001,1.999998 C 30,48.999998 28,47 28,47 28,47 26,48.999998 22,48.999998 18,48.999998 16,47 16,47 v -1.000001 h -1 v 2.999999 z"
+       id="path1172"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10"
+       y="27"
+       id="text1297-9-4-4-3-9-0"><tspan
+         sodipodi:role="line"
+         id="tspan1295-4-3-8-1-6-8"
+         x="10"
+         y="27"
+         style="font-size:5.64444447px;stroke-width:0.26458332">bottom</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-51"
+       y="8"
+       id="text903-7-7-4-9-8-5-6-1"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan901-4-1-1-6-8-0-2-9"
+         x="-51"
+         y="8"
+         style="font-size:3.52777767px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;fill:#999999;fill-opacity:1;stroke-width:0.26458332">near</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49"
+       y="38"
+       id="text903-1-6-9-4-4-6-1-9-9-8-2-5-4-3-26-5"><tspan
+         sodipodi:role="line"
+         x="49"
+         y="38"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1234">tomestone_reflector_radius</tspan></text>
+    <path
+       style="fill:none;stroke:#fc0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="M 44,39 H 34.5 V 38 L 48,38 v 1 h 20.500001"
+       id="path1322-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#fc0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 24,39 h 9.5 l 0,-2 14.5,-10e-7 v -0.999998 h 20.500001"
+       id="path1324-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#fb0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 34,51 h 14 v 1 h 22"
+       id="path1171-9-14"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#fb0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 34,50 h 14 v -1 l 22,0"
+       id="path1173-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49"
+       y="51"
+       id="text903-1-6-9-4-4-6-1-9-9-8-2-5-4-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-9-7-4-6-26-6"
+         x="49"
+         y="51"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_engraving_height</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49"
+       y="44.5"
+       id="text903-1-6-9-4-4-6-1-9-9-8-2-5-4-3-26-33"><tspan
+         sodipodi:role="line"
+         id="tspan901-2-0-0-1-3-79-52-2-7-9-7-4-6-26-1-8"
+         x="49"
+         y="44.5"
+         style="font-size:1.41111112px;line-height:1.5;text-align:start;baseline-shift:baseline;text-anchor:start;stroke-width:0.26458332">tomestone_inner_thickness</tspan></text>
+    <path
+       style="fill:none;stroke:#fc0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 41,45.5 c 0,-0.5 10e-7,0.0037 10e-7,-1.000001 L 48,44.5 v 1 h 20.500001"
+       id="path1322-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#fc0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 40,45.5 c 0,-1 0,-0.800929 0,-2.000002 h 7.999999 V 42.5 H 68.5"
+       id="path1324-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
