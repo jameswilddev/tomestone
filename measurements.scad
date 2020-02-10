@@ -6,7 +6,7 @@ function tomestone_outer_height() = 15;
 function tomestone_outer_radius() = tomestone_blade_spacing() * 2;
 function tomestone_outer_border() = 0.5;
 function tomestone_outer_thickness() = 2;
-function tomestone_inner_thickness() = 1.5;
+function tomestone_inner_thickness() = 1;
 function tomestone_engraving_height() = 0.2;
 function tomestone_reflector_radius() = 85;
 
