@@ -39,6 +39,7 @@ function tomestone_battery_width() = 51;
 function tomestone_battery_switch_width() = 2.5;
 function tomestone_battery_switch_length() = 1.5;
 function tomestone_battery_switch_throw() = 2;
+function tomestone_battery_switch_far() = 7.5;
 function tomestone_battery_length() = 23.7;
 function tomestone_battery_height() = 6;
 
