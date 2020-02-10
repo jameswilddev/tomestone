@@ -46,12 +46,12 @@ function tomestone_slide_top() = 4;
 function tomestone_slide_overlap_height() = 2;
 function tomestone_slide_bottom() = 4;
 
-function tomestone_slide_far() = 10;
+function tomestone_slide_far() = tomestone_outer_radius();
 function tomestone_slide_radius() = 3.75;
 function tomestone_slide_width() = 7.5;
 function tomestone_slide_rail_width() = 2;
 function tomestone_slide_overlap_length() = 3;
-function tomestone_slide_near() = 10;
+function tomestone_slide_near() = 25;
 
 function tomestone_led_diameter() = 3;
 function tomestone_led_height() = 5.2;
