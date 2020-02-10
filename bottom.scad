@@ -7,7 +7,7 @@ module tomestone_bottom() {
         union() {
             // Slice the top off off the bottom to create the lip which meets the top.
             intersection() {
-                tomestone_outer(0);
+                tomestone_outer(0, 0);
                 
                 cube([
                     tomestone_outer_width(),
@@ -18,7 +18,10 @@ module tomestone_bottom() {
             
             // Inner wall to fill the gap until the top.
             intersection() {
-                tomestone_outer(0 - tomestone_outer_thickness() - tomestone_tolerance());
+                tomestone_outer(
+                    0 - tomestone_outer_thickness() - tomestone_tolerance(),
+                    0 - tomestone_outer_thickness() - tomestone_tolerance()
+                );
                 
                 cube([
                     tomestone_outer_width(),
@@ -29,7 +32,10 @@ module tomestone_bottom() {
         };
         
         // Hollowing out for reflector.
-        tomestone_outer(0 - tomestone_outer_thickness() - tomestone_tolerance() - tomestone_inner_thickness());
+        tomestone_outer(
+            0 - tomestone_outer_thickness() - tomestone_tolerance() - tomestone_inner_thickness(),
+            0 - tomestone_outer_thickness() - tomestone_tolerance()
+        );
         
         // Underside engraving.
         translate([tomestone_outer_width() / 2, tomestone_outer_length() / 2 + 12, 0]) {

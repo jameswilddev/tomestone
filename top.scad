@@ -6,7 +6,7 @@ module tomestone_top() {
     trim_with_tolerance = tomestone_blade_panel_trim() + tomestone_tolerance();
     
     difference() {
-        tomestone_outer(0);
+        tomestone_outer(0, 0);
         
         // Slice the bottom off.           
         cube([
@@ -17,7 +17,7 @@ module tomestone_top() {
         
         // Carve the inside out.
         intersection() {
-            tomestone_outer(-tomestone_outer_thickness());
+            tomestone_outer(-tomestone_outer_thickness(), -tomestone_outer_thickness());
             
             cube([
                 tomestone_outer_width(),
